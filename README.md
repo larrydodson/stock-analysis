@@ -14,7 +14,7 @@ Module 2 UTMCC_DataViz, VBA_Challenge
 ## 1. Overview of Project
 ### **Purpose**
 
-  The primary purpose of the project is to utilize VBA (Visual Basic for Applications) coding script language to prepare summary financial charts with data on selected equity stocks as is of interest by our associate, Steve. The resulting charts generated from the VBA code were then used for comparison analysis of the various competitve stocks chosen by Steve, then to be used for review of it's perfomrance in the specified years, and also for financial planning for future investments. 
+  The primary purpose of the project is to utilize VBA (Visual Basic for Applications) coding script language to prepare summary financial charts with data on selected equity stocks as is of interest by our associate, Steve. The resulting charts generated from the VBA code were then used for comparison analysis of the various competitve stocks chosen by Steve, then to be used for review of it's performance in the specified years, and also for financial planning for future investments. 
   
   An addtional purpose of the exercise was to create and develop proficiency with VBA by creating macros within Excel, utilizing For-loops, If-then statements, formatting the outputs within Excel sheets for readability, creating interactivity for ease-of-use, and to understand the value of refactoring the original code for increasing performance and reliability. 
 
@@ -27,7 +27,7 @@ Module 2 UTMCC_DataViz, VBA_Challenge
 ---
 ## 2. Results 
 
-In Figure-1, below, we see an example of the data as provided for DQ and is representative for all company stocks in the master table. For both years 2017 and 2018 the avaialble data was for the identifying ticker symblol, and daily information on the stock's price for Open, the High, the Low, the daily Close price, and for the daily stock shares traded volume. The data was available on twelve different companies. (Note: the data column for "Adj Close" was not used in this evaluation.) 
+In Figure-1, below, we see an example of the data as provided for DQ and is representative for all company stocks in the master table. For both years 2017 and 2018 the avaialble data was for the identifying ticker symblol, and daily information on the stock's price for Open, the High, the Low, the daily Close price, and for the daily stock shares traded volume. The data was available on twelve different companies. (Note: the data columns for "High", "Low" and "Adj Close" were not used in this evaluation.) 
 
 **Figure-1** "Data Table, partial for DQ as example"
 ![DQchart_raw_data_2018.PNG](https://github.com/larrydodson/stock-analysis/blob/master/resources/DQchart_raw_data_2018.PNG)
@@ -58,7 +58,7 @@ Please see Figure-2 below.
 
 | Year | 2017 | 2018 |
 | ---:         |     :---:      |          :---: |
-| Original Code - prior to Factoring | 0.848 s  | 0.832 s |
+| Original Code - prior to Factoring (from Fig-2) | 0.848 s  | 0.832 s |
 | New Code - after Factoring    | ![VBA_Challenge_2017 184.PNG](https://github.com/larrydodson/stock-analysis/blob/master/resources/VBA_Challenge_2017%20184.PNG) | ![VBA_Challenge_2018 195.PNGe](https://github.com/larrydodson/stock-analysis/blob/master/resources/VBA_Challenge_2018%20195.PNG) |
 | .    | ![VBA_Challenge_2017.PNG](https://github.com/larrydodson/stock-analysis/blob/master/resources/VBA_Challenge_2017.PNG) | ![VBA_Challenge_2018.PNG](https://github.com/larrydodson/stock-analysis/blob/master/resources/VBA_Challenge_2018.PNG) |
 | Improvement in run time execution   | 78% | 77% |
